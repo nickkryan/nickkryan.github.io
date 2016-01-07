@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+
 ol, ul {
   list-style: none;
 }
@@ -266,7 +267,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 1000px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -286,6 +287,19 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+nav ul li {
+  margin: 0 auto;
+  display: inline-block;
+  margin-right: 10px;
+  right: 200px;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
 #header_wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
@@ -296,7 +310,11 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 20px 10px;
+}
+
+#header_wrap .inner_nav {
+  padding: 50px 10px 0px 10px;
 }
 
 #project_title {
