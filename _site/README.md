@@ -1,1 +1,0 @@
-# nickkryan.github.io
